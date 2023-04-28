@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://107.174.218.212:15080/about/</loc>
+    <lastmod>2023-04-27T17:31:50+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/posts/hello_hugo/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/posts/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/tags/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/tags/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2023-04-27T17:26:28+08:00</lastmod>
+  </url><url>
+    <loc>http://107.174.218.212:15080/categories/</loc>
+  </url><url>
+    <loc>http://107.174.218.212:15080/series/</loc>
+  </url>
+</urlset>

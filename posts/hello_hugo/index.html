@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Hello Hugo - Run Fast</title>
+  <meta property="og:title" content="Hello Hugo - Run Fast" />
+  <meta name="twitter:title" content="Hello Hugo - Run Fast" />
+  <meta name="description" content="
+hello hugo">
+  <meta property="og:description" content="
+hello hugo">
+  <meta name="twitter:description" content="
+hello hugo">
+  <meta name="author" content=""/>
+  <meta property="og:site_name" content="Run Fast" />
+  <meta property="og:url" content="http://107.174.218.212:15080/posts/hello_hugo/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.111.3">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/style-dark.css" media="all and (prefers-color-scheme: dark)" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Run Fast</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Hello Hugo</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>April 27, 2023</time></li>
+        <li class="article-meta-tags">
+          <a href="/tags/%E6%95%99%E7%A8%8B/">
+            <i class="fas fa-tag"></i>
+            教程
+          </a>&nbsp;
+        </li>
+        <li class="article-meta-tags">
+          <a href="/tags/%E5%BC%80%E5%8F%91/">
+            <i class="fas fa-tag"></i>
+            开发
+          </a>&nbsp;
+        </li>
+      </ul>
+      
+<aside class="toc">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#标签tags">标签tags</a></li>
+    <li><a href="#标题">标题</a></li>
+    <li><a href="#摘要">摘要</a></li>
+    <li><a href="#代码高亮">代码高亮</a></li>
+    <li><a href="#图片">图片</a></li>
+    <li><a href="#页内标题">页内标题</a></li>
+  </ul>
+</nav>
+</aside>
+      <!-- raw HTML omitted -->
+<p>hello hugo</p>
+<h1 id="启动">启动</h1>
+<p>hugo.exe server -buildDrafts</p>
+<h1 id="页面">页面</h1>
+<h2 id="标签tags">标签tags</h2>
+<p>tags: [&ldquo;教程&rdquo;, &ldquo;开发&rdquo;]</p>
+<h2 id="标题">标题</h2>
+<p>默认是文件名</p>
+<h2 id="摘要">摘要</h2>
+<p><code>&lt;!--more--&gt;</code>后面的是正文</p>
+<h2 id="代码高亮">代码高亮</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>    <span style="color:#75715e">/**
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * 驼峰转下划线
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * @param str
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     * @return
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e">     */</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> String <span style="color:#a6e22e">humpToLine</span><span style="color:#f92672">(</span>String str<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>        Matcher matcher <span style="color:#f92672">=</span> humpPattern<span style="color:#f92672">.</span><span style="color:#a6e22e">matcher</span><span style="color:#f92672">(</span>str<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        StringBuffer sb <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> StringBuffer<span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">while</span> <span style="color:#f92672">(</span>matcher<span style="color:#f92672">.</span><span style="color:#a6e22e">find</span><span style="color:#f92672">())</span> <span style="color:#f92672">{</span>
+</span></span><span style="display:flex;"><span>            matcher<span style="color:#f92672">.</span><span style="color:#a6e22e">appendReplacement</span><span style="color:#f92672">(</span>sb<span style="color:#f92672">,</span> <span style="color:#e6db74">&#34;_&#34;</span> <span style="color:#f92672">+</span> matcher<span style="color:#f92672">.</span><span style="color:#a6e22e">group</span><span style="color:#f92672">(</span><span style="color:#ae81ff">0</span><span style="color:#f92672">).</span><span style="color:#a6e22e">toUpperCase</span><span style="color:#f92672">());</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#f92672">}</span>
+</span></span><span style="display:flex;"><span>        matcher<span style="color:#f92672">.</span><span style="color:#a6e22e">appendTail</span><span style="color:#f92672">(</span>sb<span style="color:#f92672">);</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">return</span> sb<span style="color:#f92672">.</span><span style="color:#a6e22e">toString</span><span style="color:#f92672">().</span><span style="color:#a6e22e">toUpperCase</span><span style="color:#f92672">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#f92672">}</span>
+</span></span></code></pre></div><h2 id="图片">图片</h2>
+<h2 id="页内标题">页内标题</h2>
+<p>400字以上会自动添加toc</p>
+<p>通过toc:true可强制开启</p>
+<p>目前这个目录不能悬浮显示。无所谓了</p>
+<h1 id="about">about</h1>
+    </article>
+
+    
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older pager-noitem">Older &gt;</li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright"></div>
+  <ul class="site-footer-items">
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+
+</body>
+</html>

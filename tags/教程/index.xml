@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>教程 on Run Fast</title>
+    <link>http://107.174.218.212:15080/tags/%E6%95%99%E7%A8%8B/</link>
+    <description>Recent content in 教程 on Run Fast</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Apr 2023 17:26:28 +0800</lastBuildDate><atom:link href="http://107.174.218.212:15080/tags/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello Hugo</title>
+      <link>http://107.174.218.212:15080/posts/hello_hugo/</link>
+      <pubDate>Thu, 27 Apr 2023 17:26:28 +0800</pubDate>
+      
+      <guid>http://107.174.218.212:15080/posts/hello_hugo/</guid>
+      <description>&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;hello hugo&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
